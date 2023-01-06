@@ -1,14 +1,30 @@
 package main
 
-type tokenType byte
+import "fmt"
+
+type TokenType byte
 
 const (
-    tokPlus tokenType = iota
-    tokMinus
-    tokStar
-    tokSlash
+	TokLeftParen TokenType = iota
+	TokRightParen
+	TokLeftBrace
+	TokRightBrace
+	TokComma
+	TokDot
+	TokMinus
+	TokPlus
+	TokSemicolon
+	TokSlash
+	TokStar
+
+	TokEof
 )
 
-type token struct {
+type Token struct {
+	Type TokenType
+	Text string
+}
 
+func (t *Token) String() string {
+	return fmt.Sprintf("Tok<%s>", t.Text)
 }
