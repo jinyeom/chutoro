@@ -1,6 +1,6 @@
 <div align=center>
 
-![chutoro_logo](https://user-images.githubusercontent.com/9257771/209607841-cefce9ae-b47d-4620-91c6-7e6f87a6a00e.svg)
+![chutoro](https://user-images.githubusercontent.com/9257771/210950862-8288f55f-c1f8-4efd-bd72-704fb0d32fa4.svg)
 
 **chutoro programming language**
 
